@@ -1,0 +1,38 @@
+{
+  "Game": {
+    "size": {
+      "x": 600,
+      "y": 800
+    }
+  },
+  "Player": {
+    "speed": 1,
+    "lives": 3,
+    "position": {
+      "x": 300,
+      "y": 750
+    }
+  },
+  "Bunkers": [
+    {
+      "position": {
+        "x": 300,
+        "y": 700
+      },
+      "size": {
+        "x": 100,
+        "y": 25
+      }
+    }
+  ],
+  "Enemies": [
+    {
+      "position": {
+        "x": 100,
+        "y": 100
+      },
+      "projectile": "slow_straight"
+    }
+  ]
+
+}
